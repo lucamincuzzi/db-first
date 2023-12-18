@@ -1,0 +1,22 @@
+n_telaio - VARCHAR(17) - PRIMARY_KEY
+marca - VARCHAR(20) - NOTNULL
+modello - VARCHAR(20) - NOTNULL
+versione - VARCHAR(20) - NOTNULL
+chilometri - MEDIUMINT - UNSIGNED - NOTNULL
+potenza - SMALLINT - UNSIGNED - NULL
+condizione - VARCHAR(20) - NOTNULL
+colore_carrozzeria - VARCHAR(20) - NULL
+metallizzato - TINYINT - NULL
+colore_interni - VARCHAR(20) - NULL
+n_proprietari - TINYINT - UNSIGNED - NOTNULL
+n_porte - TINYINT - UNSIGNED - NOTNULL
+n_posti - TINYINT - UNSIGNED - NOTNULL
+classe - VARCHAR(20) - NOTNULL
+anno_immatricolazione - YEAR - NOTNULL
+carrozzeria - VARCHAR(30) - NOTNULL
+carburante - VARCHAR(30) - NOTNULL
+cambio - VARCHAR(20) - NOTNULL
+paese - VARCHAR(30) - NOTNULL
+città - VARCHAR(30) - NOTNULL
+prezzo - MEDIUMINT - UNSIGNED - NOTNULL
+n_telefono - VARCHAR(12) - NULL
